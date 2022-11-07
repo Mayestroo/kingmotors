@@ -1,0 +1,61 @@
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+  nav ul {
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .entering h1 {
+    font-weight: 400;
+    font-size: 110px;
+  }
+  .entering .send {
+    font-weight: 500;
+    font-size: 90px;
+    width: 1240px;
+    height: 278px;
+    border-radius: 200px;
+  }
+  .about-title {
+    font-weight: 400;
+    font-size: 80px;
+
+    line-height: 100px;
+  }
+  .about-subtitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52px;
+  }
+  .text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .model-title {
+    font-size: 70px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
